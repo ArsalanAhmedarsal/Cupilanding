@@ -47,7 +47,7 @@ header {
 .hero-banner {
     display: block;
     justify-content: center;
-    background-image: url('/Asstes/Imgs/hero-banner.png');
+    background-image: url('../Imgs/hero-banner.png');
     min-height: 700px;
     background-size: cover;
     background-position: center center;
@@ -149,7 +149,7 @@ header {
 .calender-warper .calender-content-wraper {
 
     text-align: center;
-    background-image: url('/Asstes/Imgs/calender-bg.png');
+    background-image: url('../Imgs/calender-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -188,7 +188,7 @@ header {
 
 .listing-heading-bg {
 
-    background-image: url('/Asstes/Imgs/listing-bg.png');
+    background-image: url('../Imgs/listing-bg.png');
 
     background-repeat: no-repeat;
     background-position: center center;
@@ -294,7 +294,7 @@ header {
 
     background-color: #e5c198;
     text-align: center;
-    background-image: url('/Asstes/Imgs/colaj-bg.png');
+    background-image: url('../Imgs/colaj-bg.png');
     background-size: contain;
     background-repeat: no-repeat;
     padding: 100px 0;
@@ -360,7 +360,7 @@ header {
 
 .bottom-colaj-waraper {
 
-    background-image: url('/Asstes/Imgs/bottom-colaj.png');
+    background-image: url('../Imgs/bottom-colaj.png');
 
     background-repeat: no-repeat;
 
@@ -373,7 +373,7 @@ header {
 .bottom-colaj-waraper .bottom-colaj {
 
 
-    background-image: url('/Asstes/Imgs/bottom-colaj-bg.png');
+    background-image: url('../Imgs/bottom-colaj-bg.png');
     background-repeat: no-repeat;
     background-position: 130px 0;
 }

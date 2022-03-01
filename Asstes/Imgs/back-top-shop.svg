@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="167" height="32" viewBox="0 0 167 32">
+  <g id="Group_4584" data-name="Group 4584" transform="translate(-335 -16)">
+    <g id="Rectangle_2348" data-name="Rectangle 2348" transform="translate(335 16)" fill="none" stroke="#5b5b5b" stroke-width="1">
+      <rect width="167" height="32" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="166" height="31" rx="4.5" fill="none"/>
+    </g>
+    <text id="Mergi_inapoi_la_site" data-name="Mergi inapoi la site" transform="translate(426 36)" fill="#fff" font-size="12" font-family="Urbanist-SemiBold, Urbanist" font-weight="600" letter-spacing="0.075em"><tspan x="-60" y="0">Mergi inapoi la site</tspan></text>
+    <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M1.472,4.271,4.7,7.5a.61.61,0,0,1-.864.862L.178,4.7A.609.609,0,0,1,.16,3.861L3.836.178A.61.61,0,0,1,4.7,1.04Z" transform="translate(346.813 27.73)" fill="#747474"/>
+  </g>
+</svg>

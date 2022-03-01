@@ -1,0 +1,447 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+
+    font-family: 'Urbanist', sans-serif;
+}
+
+.container {
+
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+header {
+
+    background-color: #212121;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 70px;
+    width: 1100px;
+    align-items: center;
+
+}
+
+.header .header-left {
+
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.hero-banner {
+    display: block;
+    justify-content: center;
+    background-image: url('/Asstes/Imgs/hero-banner.png');
+    min-height: 700px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 100px 0 0 0;
+}
+
+
+/* .hero-banner {
+
+    position: relative;
+
+}
+
+.hero-banner::before {
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(191, 146, 110, 1);
+    bottom: 0;
+    left: 0;
+    background-image: url('/Asstes/Imgs/calendar-edge-bg.png');
+} */
+
+.hero-banner .hero-banner-logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-banner .hero-banner-content {
+
+    text-align: center;
+}
+
+.hero-banner .hero-banner-content .hero-banner-tagline {
+
+    color: #E0CEA8;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.hero-banner .hero-banner-content .hero-banner-promotion-text {
+
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.hero-banner .hero-banner-content .hero-banner-promotion-text span {
+
+    display: block;
+
+}
+
+.hero-banner .hero-banner-content .hero-banner-news-letter-heading {
+
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.hero-banner .hero-banner-content .hero-banner-news-letter-input {
+
+    margin: 25px 0;
+}
+
+
+.hero-edge-bg {
+   
+    background-color: hsla(27, 39%, 59%, 1); 
+}
+
+.hero-edge-bg img {
+
+    width: 100%;
+}
+
+
+.calender-warper {
+    padding: 0;
+
+    background: rgb(191, 146, 110);
+    background: linear-gradient(180deg, rgba(191, 146, 110, 1) 0%, rgba(229, 193, 152, 1) 100%);
+
+}
+
+.calender-warper  .calender .calender-img-mobile {
+
+    display: none;
+}
+
+.calender-warper .calender-content-wraper {
+
+    text-align: center;
+    background-image: url('/Asstes/Imgs/calender-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 0 20px;
+
+}
+
+.calender-warper .calender-content-wraper .calender-heading {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 60px 0 60px 0;
+    text-align: center;
+}
+
+
+.calender-warper .calender-content-wraper .calender-content {
+
+    font-size: 18px;
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 1);
+    max-width: 660px;
+
+    margin: 0 auto;
+}
+
+.calender-warper .calender {
+
+    margin-top: 100px;
+}
+
+
+
+.listing-heading-bg {
+
+    background-image: url('/Asstes/Imgs/listing-bg.png');
+
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+    background-size: contain;
+    
+
+}
+
+
+.calender-warper .listing-wraper .listing-heading {
+
+    color: hsla(0, 0%, 13%, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 80px 30px;
+
+}
+
+.calender-warper .listing-wraper .listing .listing-mobile {
+
+    display: none;
+}
+
+
+.calenger-edge-bg {
+
+
+    
+    background-color: #000306;
+}
+
+.calenger-edge-bg img {
+
+    width: 100%;
+}
+
+.demo-banner-warper {
+
+    background-color: #000306;
+    color: white;
+    text-align: center;
+}
+
+.demo-banner-warper .demo-banner-heading {
+
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.demo-banner-hero-img {
+
+    margin-top: 20px;
+}
+
+.demo-banner-hero-img img {
+    width: 100%;
+}
+
+
+.demo-banner-bg {
+
+    
+    background-color: rgb(191, 146, 110);
+
+
+}
+
+.top-colaj-warper {
+
+    background: rgb(191, 146, 110);
+    background: linear-gradient(180deg, rgba(191, 146, 110, 1) 0%, rgba(229, 193, 152, 1) 100%);
+    position: relative;
+    min-height: 450px;
+}
+
+
+.top-colaj-img {
+
+    position: absolute;
+    top: -360px;
+    left: -110px;
+}
+
+
+.top-colaj-content {
+
+    background-color: #e5c198;
+    text-align: center;
+    background-image: url('/Asstes/Imgs/colaj-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    background-position: top;
+    
+}
+
+
+.top-colaj-content .top-colaj-qoute {
+
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    max-width: 455px;
+    margin: 50px auto 0 auto;
+
+
+}
+
+.top-colaj-content .top-colaj-text {
+
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+
+    max-width: 255px;
+    margin: 60px auto 0 auto;
+
+}
+
+.timeline-wraper {
+
+    background-color: #e5c198;
+    padding-top: 50px;
+}
+
+.timeline-wraper .timeline-mobile {
+
+    display: none;
+}
+
+.center-colaj .center-colaj-mobile {
+
+    display: none;
+}
+
+
+.score-board .score-board-mobile {
+
+    display: none;
+}
+
+.center-colaj, .score-board {
+
+    background-color: #e5c198;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.bottom-colaj-waraper {
+
+    background-image: url('/Asstes/Imgs/bottom-colaj.png');
+
+    background-repeat: no-repeat;
+
+    background-position: 0 100%;
+    background-size: contain;
+    background-color: #e5c198;
+}
+
+
+.bottom-colaj-waraper .bottom-colaj {
+
+
+    background-image: url('/Asstes/Imgs/bottom-colaj-bg.png');
+    background-repeat: no-repeat;
+    background-position: 130px 0;
+}
+
+.bottom-colaj-waraper .bottom-colaj .colaj-bottom-mobile{ 
+
+
+    display: none;
+
+}
+
+.big-colaj-warper {
+
+    background-color: #212121;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.big-colaj-warper .big-colaj-content {
+
+    color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 30px;
+
+}
+
+footer {
+    background-color: #212121;
+    text-align: center;
+
+}
+
+footer .footer-content {
+
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+    padding-top: 60px;
+    
+
+}
+
+footer .footer-social-media, footer .footer-news-letter {
+
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+
+.footer-copyrights {
+
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    
+
+    
+}
+
+.footer-copyrights-wraper {
+
+    border-top: 1px solid #5e5e5e;
+    padding: 15px 0;
+}

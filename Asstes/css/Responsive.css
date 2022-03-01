@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1200px) {
+
+    .container {
+
+        width: 100%;
+
+    }
+
+    .header {
+
+        width: 100%;
+    }
+
+    .top-colaj-content {
+
+        padding: 0 0 100px 0;
+    }
+
+
+    .top-colaj-warper {
+
+
+        min-height: 400px;
+    }
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+
+
+    .top-colaj-warper {
+
+
+        min-height: 340px;
+    }
+
+
+    .top-colaj-warper .top-colaj-img {
+
+        top: -270px;
+    }
+
+    .bottom-colaj-waraper .bottom-colaj {
+
+
+        background-image: none;
+
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+
+
+
+
+    .hero-banner .hero-banner-logo {
+
+        width: 250px;
+    }
+
+    .calender-warper .calender .calender-img-desktop {
+
+        display: none;
+
+    }
+
+    .calender-warper .calender .calender-img-mobile {
+
+        display: block;
+        width: 100%;
+    }
+
+
+    .timeline-wraper .timeline-mobile {
+
+        display: block;
+        width: 100%;
+    }
+
+
+    .timeline-wraper .timeline-desktop {
+
+        display: none;
+    }
+
+
+    .top-colaj-content {
+
+        padding: 0 50px 100px 50px;
+    }
+
+
+    .center-colaj .center-colaj-mobile {
+
+        display: block;
+        width: 100%;
+    }
+
+
+    .center-colaj .center-colaj-desktop {
+
+        display: none;
+    }
+
+    .score-board .score-board-mobile {
+
+        display: block;
+        width: 100%;
+    }
+
+    .score-board .score-board-desktop {
+
+        display: none;
+
+    }
+
+    .calender-warper .listing-wraper .listing .listing-mobile {
+
+        display: block;
+        width: 100%;
+    }
+
+
+    .calender-warper .listing-wraper .listing .listing-desktop {
+
+        display: none;
+
+    }
+
+    .top-colaj-warper {
+        min-height: 240px;
+    }
+
+
+    .bottom-colaj-waraper .bottom-colaj .colaj-bottom-mobile {
+
+
+        display: block;
+
+    }
+
+
+    .bottom-colaj-waraper .bottom-colaj .colaj-bottom-desktop {
+
+
+        display: none;
+
+    }
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 667px) {
+
+    .calender-warper .calender-content-wraper .calender-heading {
+
+        padding: 30px 0;
+    }
+
+    .calender-warper .calender-content-wraper .calender-heading,
+    .calender-warper .listing-wraper .listing-heading,
+    .demo-banner-warper .demo-banner-heading {
+
+
+        font-size: 16px;
+    }
+
+
+    .calender-warper .calender-content-wraper .calender-content {
+
+        font-size: 14px;
+    }
+
+
+    .top-colaj-warper .top-colaj-img {
+
+
+        top: -170px;
+    }
+
+    .listing-heading-bg {
+
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hero-banner {
+        display: block;
+        justify-content: center;
+        background-image: url('/Asstes/Imgs/Hero-Banner-Mobile.png');
+        min-height: 600px;
+        background-size: contain;
+        background-position: center top;
+        background-repeat: no-repeat;
+        padding: 100px 0 0 0;
+        background-color: #212121;
+
+    }
+
+
+    .calender-warper .calender-content-wraper {
+
+        background-position: top;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+
+    .main-logo {
+
+        width: 100px;
+    }
+
+    .header .header-left {
+
+        gap: 20px;
+    }
+
+    .back-top-shop-btn {
+
+        width: 130px;
+
+    }
+
+
+    .top-colaj-warper .top-colaj-img {
+
+
+        top: -100px;
+    }
+
+
+
+
+    .calender-warper .listing-wraper .listing-heading {
+
+        font-size: 16px;
+        padding: 50px 30px;
+    }
+
+}
